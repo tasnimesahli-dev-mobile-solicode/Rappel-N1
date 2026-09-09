@@ -3,7 +3,7 @@ let array=[50,2,100,350,5];
 
 let vMax=array[0];
 
-for(i=0;i<array.length ;i++){
+for(let i=0;i<array.length ;i++){
     if(array[i]>vMax){
         vMax=array[i];
     }
