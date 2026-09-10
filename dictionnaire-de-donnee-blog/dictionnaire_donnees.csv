@@ -1,0 +1,23 @@
+Nom,Signification,Type,Format,Taille,Obligatoire,Calculée
+#article
+titre,Titre de l’article,Texte,Texte,255,Oui,Non
+contenu,Contenu de l’article,Texte,Texte long,500,Oui,Non
+date_publication,Date de publication de larticle,Date,JJ/MM/AAAA,,Oui,Oui
+durre_lecture,duree estimée de la lecture ,Entier,en minutes,3,Oui,Oui
+description,description courte de l’article,Text,Text,500,Oui,Non
+image,image d'article,text,url,255,Oui,Non
+#Catégorie
+categorie_nom,nom de categorie,text,text,130,Oui,Non
+#Auteur
+nom,nom de l'auteur,text,text,100,Oui,Non
+prenom,prenom de l'auteur,text,text,100,Oui,Non
+email,email de auteur pour Connectez,text,Email,130,Oui,Non
+password,password pour connectez lauteur,text,password,130,Oui,Non
+photo_profile,photo de profile de auteur,text,url,255,Non,Non
+#Admin
+nom_admin,Nom de l'administrateur,Texte,Texte,100,Oui,non
+photo_admin,Photo de profil de l'administrateur,Texte,URL / chemin,255 ,Non,non
+statut_article,Statut de l'article,text,publié/brouillon,20,oui,non
+nombre_articles,Nombre total d'articles publiés,Entier,Nombre,20,Oui,oui
+nombre_categories,Nombre total de catégories,Entier,Nombre,20, oui,oui
+nombre_vues,Nombre total de vues des articles,entier,nombre,oui,oui
