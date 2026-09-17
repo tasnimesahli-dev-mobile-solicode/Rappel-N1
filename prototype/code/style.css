@@ -36,4 +36,32 @@ h3{
     width: 250px;
     height: auto;
     align-items: center;
+}.ajouter {
+    width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.ajouter input,
+.ajouter textarea,
+.ajouter select {
+    width: 100%;
+    margin: 8px 0 15px;
+    padding: 8px;
+}
+.ajouter textarea {
+    height: 120px;
+}
+
+.ajouter button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+} .button {
+    display: flex;
+    gap: 10px;
 }

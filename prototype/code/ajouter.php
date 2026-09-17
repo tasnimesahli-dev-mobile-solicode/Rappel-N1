@@ -6,7 +6,6 @@ $contenu = isset($_POST['contenu']) ?$_POST['contenu'] : '';
 $image = isset($_FILES['image']) ?$_FILES['image'] : '';
 $categorie = isset($_POST['categorie']) ?$_POST['categorie'] : '';
 
-$erreur=false;
 if($titre===''||$contenu==='' || $image['error']!==0 || $categorie==='' ){
     echo "Veuillez remplire tout les champ";
 exit;
@@ -36,6 +35,7 @@ header('location:accueil.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter un article</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
    <div class ="ajouter">
@@ -54,8 +54,10 @@ header('location:accueil.php');
     <option value='Voyage'>Voyage</option>
     <option value='Culture'>Culture</option>
 </select><br>
+<div class='button'>
 <button type='submit'>Ajouter</button>
 <a href='accueil.php'>Annuler</a>
+</div>
     </form>
 </div> 
 </body>
