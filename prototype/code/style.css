@@ -19,9 +19,10 @@ h3{
     text-decoration: none;
     border-radius: 15px;
     background-color: rgb(50, 110, 165);
-    padding: 8px;
+    padding: 10px;
     display: flex;
     text-align: center;
+    width: 150px;
 } .articles {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
