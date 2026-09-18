@@ -26,7 +26,6 @@ $sql->execute([
 ]);
 header('location:accueil.php');
 }
-
 ?>
 
 <!DOCTYPE html>
